@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: application/json');
 
-$jsonData = file_get_contents('data.json');
+$jsonCode = file_get_contents('code.json');
 
-echo $jsonData;
+echo $jsonCode;
